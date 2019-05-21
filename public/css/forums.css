@@ -1,0 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);#chatter #chatter_hero img {
+  max-height: unset;
+  max-width: 500px;
+  position: relative;
+}
+
+#chatter {
+  margin-top: -1.5rem !important;
+}
+
+.nav .nav-pills .nav-stacked li {
+  width: 100%;
+  float: left;
+  display: inline;
+}
+
+.nav-stacked li {
+  width: 100% !important;
+}
+

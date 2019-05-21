@@ -11,6 +11,10 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+        crossorigin="anonymous"></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -18,6 +22,12 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    @yield('css')
+@if(Request::is( Config::get('chatter.routes.home') ) || Request::is( Config::get('chatter.routes.home') . '/*' ))
+    <!-- LINK TO YOUR CUSTOM STYLESHEET -->
+        <link href="{{ asset('css/forums.css') }}" rel="stylesheet">
+
+    @endif
 </head>
 <body>
     <div id="app">
@@ -33,7 +43,9 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-
+                        <li class="nav-item">
+                            <a class="nav-link" href="/forum">{{ __('Forum') }}</a>
+                        </li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
@@ -55,6 +67,9 @@
                                 </a>
 
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="/profile">
+                                        User Profile
+                                    </a>
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
@@ -75,6 +90,12 @@
         <main class="py-4">
             @yield('content')
         </main>
+        <footer style="background-color: #262626; color: white; padding-top: 40px; padding-bottom: 40px;">
+           <center> <h4>&copy UnlimitedGamesNetwork 2018 - 2019. &nbsp;  Made by BMH Solutions.</h4></center>
+        </footer>
     </div>
 </body>
+
+@yield('js')
+
 </html>

@@ -1,35 +1,477 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e720461-aa91-4561-9c9a-97010fb0d7a2" name="Default Changelist" comment="" />
+    <list default="true" id="7e720461-aa91-4561-9c9a-97010fb0d7a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/chatter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/laravelusers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2016_07_29_171118_create_chatter_categories_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2016_07_29_171118_create_chatter_discussion_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2016_07_29_171118_create_chatter_post_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2016_07_29_171128_create_foreign_keys.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2016_08_02_183143_add_slug_field_for_discussions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2016_08_03_121747_add_color_row_to_chatter_discussions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2017_01_16_121747_add_markdown_and_lock_to_chatter_posts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2017_01_16_121747_create_chatter_user_discussion_pivot_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2017_08_07_165345_add_chatter_soft_deletes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2017_10_10_221227_add_chatter_last_reply_at_discussion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/ChatterTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/forums.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/css/chatter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/css/chatter.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/css/simplemde.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/fonts/chatter.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/fonts/chatter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/fonts/chatter.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/fonts/chatter.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/images/chatter-screenshot.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/images/email.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/images/hero_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/images/logo-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/images/logo.sketch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/js/chatter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/js/chatter_simplemde.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/js/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/js/simplemde.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/js/tinymce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/js/trumbowyg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/less/chatter.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/spectrum/spectrum.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/spectrum/spectrum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/jquery.tinymce.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/langs/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/advlist/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/anchor/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/autolink/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/autoresize/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/autosave/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/bbcode/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/charmap/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/code/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/codesample/css/prism.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/codesample/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/colorpicker/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/contextmenu/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/directionality/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/emoticons/img/smiley-cool.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/emoticons/img/smiley-cry.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/emoticons/img/smiley-embarassed.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/emoticons/img/smiley-frown.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/emoticons/img/smiley-innocent.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/emoticons/img/smiley-kiss.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/emoticons/img/smiley-laughing.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/emoticons/img/smiley-sealed.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/emoticons/img/smiley-smile.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/emoticons/img/smiley-surprised.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/emoticons/img/smiley-undecided.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/emoticons/img/smiley-wink.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/emoticons/img/smiley-yell.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/emoticons/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/example/dialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/example/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/example_dependency/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/fullpage/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/fullscreen/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/hr/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/image/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/imagetools/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/importcss/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/insertdatetime/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/layer/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/legacyoutput/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/link/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/lists/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/media/moxieplayer.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/media/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/nonbreaking/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/noneditable/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/pagebreak/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/paste/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/preview/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/print/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/save/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/searchreplace/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/spellchecker/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/tabfocus/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/table/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/template/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/textcolor/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/textpattern/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/visualblocks/css/visualblocks.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/visualblocks/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/visualchars/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/plugins/wordcount/plugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/skins/chatter/Variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/skins/chatter/content.inline.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/skins/chatter/content.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/skins/chatter/fonts/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/skins/chatter/fonts/tinymce-small.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/skins/chatter/fonts/tinymce-small.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/skins/chatter/fonts/tinymce-small.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/skins/chatter/fonts/tinymce-small.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/skins/chatter/fonts/tinymce-small.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/skins/chatter/fonts/tinymce.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/skins/chatter/fonts/tinymce.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/skins/chatter/fonts/tinymce.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/skins/chatter/fonts/tinymce.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/skins/chatter/fonts/tinymce.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/skins/chatter/img/anchor.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/skins/chatter/img/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/skins/chatter/img/object.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/skins/chatter/img/trans.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/skins/chatter/skin.ie7.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/skins/chatter/skin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/skins/chatter/skin.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/skins/lightgray/content.inline.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/skins/lightgray/content.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/skins/lightgray/fonts/tinymce-small.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/skins/lightgray/fonts/tinymce-small.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/skins/lightgray/fonts/tinymce-small.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/skins/lightgray/fonts/tinymce-small.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/skins/lightgray/fonts/tinymce.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/skins/lightgray/fonts/tinymce.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/skins/lightgray/fonts/tinymce.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/skins/lightgray/fonts/tinymce.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/skins/lightgray/img/anchor.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/skins/lightgray/img/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/skins/lightgray/img/object.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/skins/lightgray/img/trans.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/skins/lightgray/skin.ie7.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/skins/lightgray/skin.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/config/bolt/atomic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/config/bolt/bootstrap-atomic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/config/bolt/bootstrap-browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/config/bolt/bootstrap-demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/config/bolt/bootstrap-prod.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/config/bolt/browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/config/bolt/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/config/bolt/prod.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/config/dent/depend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/scratch/compile/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/scratch/compile/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/scratch/inline/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/scratch/inline/theme.raw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/demo/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/demo/html/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/demo/js/tinymce/inlite/Demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/main/js/tinymce/inlite/Theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/main/js/tinymce/inlite/alien/Arr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/main/js/tinymce/inlite/alien/Bookmark.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/main/js/tinymce/inlite/alien/Unlink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/main/js/tinymce/inlite/alien/Uuid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/main/js/tinymce/inlite/core/Actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/main/js/tinymce/inlite/core/Convert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/main/js/tinymce/inlite/core/ElementMatcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/main/js/tinymce/inlite/core/Layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/main/js/tinymce/inlite/core/Matcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/main/js/tinymce/inlite/core/Measure.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/main/js/tinymce/inlite/core/PredicateId.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/main/js/tinymce/inlite/core/SelectionMatcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/main/js/tinymce/inlite/core/SkinLoader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/main/js/tinymce/inlite/core/UrlType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/main/js/tinymce/inlite/file/Conversions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/main/js/tinymce/inlite/file/Picker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/main/js/tinymce/inlite/ui/Buttons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/main/js/tinymce/inlite/ui/Forms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/main/js/tinymce/inlite/ui/Panel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/main/js/tinymce/inlite/ui/Toolbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/test/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/test/js/atomic/alien/ArrTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/test/js/atomic/alien/UuidTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/test/js/atomic/core/ConvertTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/test/js/atomic/core/MatcherTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/test/js/atomic/core/UrlTypeTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/test/js/browser/ThemeTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/test/js/browser/alien/BookmarkTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/test/js/browser/alien/UnlinkTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/test/js/browser/core/ActionsTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/test/js/browser/core/ElementMatcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/test/js/browser/core/LayoutTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/test/js/browser/core/MeasureTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/test/js/browser/core/PredicateIdTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/test/js/browser/core/SelectionMatcherTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/test/js/browser/file/ConversionsTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/src/test/js/browser/file/SelectionMatcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/inlite/theme.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/themes/modern/theme.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/tinymce/tinymce.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/langs/ar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/langs/bg.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/langs/ca.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/langs/cs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/langs/da.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/langs/de.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/langs/el.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/langs/es.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/langs/es_ar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/langs/fa.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/langs/fi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/langs/fr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/langs/he.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/langs/hr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/langs/hu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/langs/id.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/langs/it.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/langs/ja.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/langs/ko.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/langs/my.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/langs/nl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/langs/no_nb.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/langs/ph.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/langs/pl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/langs/pt.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/langs/ro.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/langs/rs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/langs/rs_latin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/langs/ru.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/langs/sk.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/langs/sv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/langs/tr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/langs/ua.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/langs/vi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/langs/zh_cn.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/langs/zh_tw.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/plugins/base64/trumbowyg.base64.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/plugins/base64/trumbowyg.base64.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/plugins/cleanpaste/trumbowyg.cleanpaste.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/plugins/cleanpaste/trumbowyg.cleanpaste.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/plugins/colors/trumbowyg.colors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/plugins/colors/trumbowyg.colors.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/plugins/colors/ui/sass/trumbowyg.colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/plugins/colors/ui/trumbowyg.colors.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/plugins/colors/ui/trumbowyg.colors.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/plugins/emoji/trumbowyg.emoji.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/plugins/emoji/trumbowyg.emoji.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/plugins/insertaudio/trumbowyg.insertaudio.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/plugins/insertaudio/trumbowyg.insertaudio.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/plugins/noembed/trumbowyg.noembed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/plugins/noembed/trumbowyg.noembed.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/plugins/pasteimage/trumbowyg.pasteimage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/plugins/pasteimage/trumbowyg.pasteimage.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/plugins/preformatted/trumbowyg.preformatted.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/plugins/preformatted/trumbowyg.preformatted.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/plugins/table/trumbowyg.table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/plugins/table/trumbowyg.table.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/plugins/template/trumbowyg.template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/plugins/template/trumbowyg.template.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/plugins/upload/trumbowyg.upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/plugins/upload/trumbowyg.upload.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/trumbowyg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/trumbowyg.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/ui/icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/ui/sass/trumbowyg.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/ui/trumbowyg.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vendor/devdojo/chatter/assets/vendor/trumbowyg/ui/trumbowyg.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/chatter/en/alert.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/chatter/en/email.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/chatter/en/intro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/chatter/en/messages.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/chatter/es/alert.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/chatter/es/email.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/chatter/es/intro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/chatter/es/messages.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/chatter/nl/alert.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/chatter/nl/email.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/chatter/nl/intro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/chatter/nl/messages.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/chatter/ro/alert.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/chatter/ro/email.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/chatter/ro/intro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/chatter/ro/messages.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/laravelusers/en/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/laravelusers/en/forms.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/laravelusers/en/laravelusers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/laravelusers/en/modals.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/laravelusers/pt-br/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/laravelusers/pt-br/forms.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/laravelusers/pt-br/laravelusers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/vendor/laravelusers/pt-br/modals.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/sass/forums.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/profile.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/chatter/home.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelusers/layouts/app.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelusers/modals/modal-delete.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelusers/modals/modal-save.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelusers/partials/bs-visibility-css.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelusers/partials/form-status.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelusers/partials/search-users-form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelusers/partials/styles.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelusers/scripts/check-changed.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelusers/scripts/datatables.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelusers/scripts/delete-modal-script.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelusers/scripts/save-modal-script.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelusers/scripts/search-users.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelusers/scripts/toggleText.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelusers/scripts/tooltips.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelusers/usersmanagement/create-user.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelusers/usersmanagement/edit-user.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelusers/usersmanagement/show-user.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/laravelusers/usersmanagement/show-users.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/website-laravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/website-laravel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="379">
+              <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="92">
+              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/vendor/chatter/home.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="99" column="51" selection-start-line="99" selection-start-column="51" selection-end-line="99" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="46" column="74" selection-start-line="46" selection-start-column="74" selection-end-line="46" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/chatter.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="125" column="48" selection-start-line="125" selection-start-column="44" selection-end-line="125" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/profile.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#1595#1639#0#HTML" expanded="true" />
+                <element signature="e#1513#2112#0#HTML" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/ChatterCategory.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="102" selection-start-line="102" selection-end-line="102" />
+              <folding>
+                <element signature="e#40#68#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-863" />
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>categories</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/.env.example" />
+        <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
+        <option value="$PROJECT_DIR$/webpack.mix.js" />
+        <option value="$PROJECT_DIR$/public/css/forums.css" />
+        <option value="$PROJECT_DIR$/resources/sass/forums.scss" />
+        <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/config/chatter.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/vendor/chatter/home.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/profile.blade.php" />
         <option value="$PROJECT_DIR$/.env" />
       </list>
     </option>
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -120,9 +562,27 @@
       <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
       <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
       <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/devdojo/chatter" />
+      <path value="$PROJECT_DIR$/vendor/ezyang/htmlpurifier" />
+      <path value="$PROJECT_DIR$/vendor/luketowers/purifier" />
+      <path value="$PROJECT_DIR$/vendor/jeremykenedy/laravel-users" />
+      <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
+      <path value="$PROJECT_DIR$/vendor/seld/phar-utils" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/larapack/voyager-hooks" />
+      <path value="$PROJECT_DIR$/vendor/seld/jsonlint" />
+      <path value="$PROJECT_DIR$/vendor/justinrainbow/json-schema" />
+      <path value="$PROJECT_DIR$/vendor/larapack/hooks" />
+      <path value="$PROJECT_DIR$/vendor/arrilot/laravel-widgets" />
+      <path value="$PROJECT_DIR$/vendor/larapack/doctrine-support" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
+      <path value="$PROJECT_DIR$/vendor/tcg/voyager" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
@@ -132,6 +592,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,22 +603,70 @@
             <path>
               <item name="website-laravel" type="b2602c69:ProjectViewProjectNode" />
               <item name="website-laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="website-laravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Console" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="website-laravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Providers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="website-laravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="website-laravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="website-laravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="website-laravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="website-laravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-laravel" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="devdojo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../jarne hogenberg/websites/lineaire regressie/site/jarnehogenberg.nl" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\bmhsolutions\customers\ultragamesnetwork.com\projects\website-laravel" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -188,47 +697,250 @@
       <option name="presentableId" value="Default" />
       <updated>1550132791014</updated>
       <workItem from="1550132792679" duration="283000" />
+      <workItem from="1550310137346" duration="5578000" />
+      <workItem from="1550343175743" duration="4628000" />
+      <workItem from="1553712306721" duration="42000" />
+      <workItem from="1558454420071" duration="5843000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="283000" />
+    <option name="totallyTimeSpent" value="16374000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="npm" side_tool="true" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25755167" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32998884" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Remote Host" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32998884" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/profile.blade.php</url>
+          <line>60</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.env.example">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="19" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="e#33#71#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/devdojo/chatter/src/Helpers/ChatterHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2473" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/devdojo/chatter/src/Routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4129" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/devdojo/chatter/src/Lang/nl/messages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-345" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/app.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/devdojo/chatter/config/chatter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/app.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/devdojo/chatter/src/Controllers/ChatterAtomController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-966" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/devdojo/chatter/src/Models/Category.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/devdojo/chatter/src/Controllers/ChatterController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/devdojo/chatter/public/assets/css/chatter.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/forums.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.mix.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/forums.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/devdojo/chatter/src/Views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1656">
+          <caret line="72" column="35" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_07_29_171128_create_foreign_keys.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="46" column="74" selection-start-line="46" selection-start-column="74" selection-end-line="46" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-863" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/chatter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="125" column="48" selection-start-line="125" selection-start-column="44" selection-end-line="125" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/vendor/chatter/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="99" column="51" selection-start-line="99" selection-start-column="51" selection-end-line="99" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/profile.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#1595#1639#0#HTML" expanded="true" />
+            <element signature="e#1513#2112#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ChatterCategory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="92">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
         </state>
       </provider>
     </entry>
